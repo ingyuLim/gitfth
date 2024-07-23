@@ -1,4 +1,4 @@
-#!/Users/inlim/django/pyburger/venv/bin/python3
+#!/goinfre/inlim/git_tmp/pyburger/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

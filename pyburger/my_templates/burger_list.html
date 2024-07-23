@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>"Here is the list of burgers."</h1>
-</body>
+    {%for burger in burgers%}
+    <div>
+      {{ burger.name }} (price : {{ burger.price}}, calories :
+      {{burger.calories}}kcal)
+    </div>
+    {%endfor%}
+  </body>
 </html>
