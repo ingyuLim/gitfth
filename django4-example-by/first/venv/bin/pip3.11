@@ -1,4 +1,4 @@
-#!/goinfre/inlim/django4-example-by/first/venv/bin/python3.11
+#!/goinfre/inlim/example/1/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
