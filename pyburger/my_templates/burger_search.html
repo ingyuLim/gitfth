@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>"This is a search screen of pyburger."</h1>
+    <div>
+        <form method="get">
+            <input type = "text" name="keyword">
+            <button type="submit">search</button>
+        </form>
+    </div>
+	<h2>Search Result</h2>
+	{%for burger in burgers%}
+    <div>
+      {{ burger.name }}
+	  (price : {{ burger.price}}, calories :
+      {{burger.calories}}kcal)
+    </div>
+    {%endfor%}
+</body>
+</html>
